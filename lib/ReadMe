@@ -1,0 +1,3 @@
+Active Session: [AS]
+It represents the current interaction of a user with a system after they have successfully logged in.
+An active session allows the user to perform actions and access resources.
