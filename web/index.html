@@ -13,12 +13,16 @@
 
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
+
+
   -->
   <base href="$FLUTTER_BASE_HREF">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="A new Flutter project.">
+  <meta name="google-signin-client_id" content="635108666809-2rdcdi43157n1vqqvk7b7m5196m47e8q.apps.googleusercontent.com">
+
 
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -40,6 +44,30 @@
   <script src="flutter.js" defer></script>
 </head>
 <body>
+
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.3.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.3.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyATmRSNClLHisA5jPVE8DQNudm0qEBnjXI",
+    authDomain: "alphacentauric-abi-7d22f.firebaseapp.com",
+    projectId: "alphacentauric-abi-7d22f",
+    storageBucket: "alphacentauric-abi-7d22f.appspot.com",
+    messagingSenderId: "635108666809",
+    appId: "1:635108666809:web:d8c3c087978d18c376da68",
+    measurementId: "G-ELL8R7Q4YQ"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
   <script>
     window.addEventListener('load', function(ev) {
       // Download main.dart.js

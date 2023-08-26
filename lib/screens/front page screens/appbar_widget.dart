@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '../about_screen/about_screen.dart';
 import '../auth screens/auuth_screen.dart';
 import '../contact_screen/contact_screen.dart';
-import '../front_page_screen.dart';
+import '../home_screen.dart';
 import '../service screen/service_screen.dart';
 import 'search_bar_widget.dart';
 

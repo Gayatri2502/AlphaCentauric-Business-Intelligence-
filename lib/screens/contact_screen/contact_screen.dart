@@ -1,4 +1,4 @@
-import 'package:abi/screens/front_page_screen.dart';
+import 'package:abi/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 
 import '../about_screen/about_screen.dart';

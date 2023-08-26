@@ -1,4 +1,4 @@
-import 'package:abi/screens/front_page_screen.dart';
+import 'package:abi/screens/home_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
@@ -9,13 +9,16 @@ void main() async {
   print("Initializing ...............");
 
   await Firebase.initializeApp(
-      name: 'Evyan Inspires',
+      //name: 'Evyan Inspires',
+      //name: 'AlphaCentauric-ABI',
       options: const FirebaseOptions(
-        apiKey: "AIzaSyAkF6hkmtOk7VtpMXVFXQ7vqykm7I_9Lm0",
-        projectId: "evyan-inspires",
-        messagingSenderId: "958813759846",
-        appId: "1:958813759846:web:15453dd5dc73992c6580a7",
-      ));
+          apiKey: "AIzaSyATmRSNClLHisA5jPVE8DQNudm0qEBnjXI",
+          authDomain: "alphacentauric-abi-7d22f.firebaseapp.com",
+          projectId: "alphacentauric-abi-7d22f",
+          storageBucket: "alphacentauric-abi-7d22f.appspot.com",
+          messagingSenderId: "635108666809",
+          appId: "1:635108666809:web:d8c3c087978d18c376da68",
+          measurementId: "G-ELL8R7Q4YQ"));
 
   runApp(const MyApp());
 }
