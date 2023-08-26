@@ -4,7 +4,7 @@ import '../../screens/about_screen/about_screen.dart';
 import '../../screens/auth screens/auuth_screen.dart';
 import '../../screens/contact_screen/contact_screen.dart';
 import '../../screens/front page screens/search_bar_widget.dart';
-import '../../screens/front_page_screen.dart';
+import '../../screens/home_screen.dart';
 import '../../screens/service screen/service_screen.dart';
 
 AppBar appBarAS(BuildContext context) => AppBar(
