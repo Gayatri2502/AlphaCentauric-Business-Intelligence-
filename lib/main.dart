@@ -38,6 +38,7 @@ class _MyAppState extends State<MyApp> {
 
     return MaterialApp(
       title: 'Alphacentauric Business Intelligence',
+      debugShowCheckedModeBanner: false,
       initialRoute: '/',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),

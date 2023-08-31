@@ -1,15 +1,9 @@
+import 'package:abi/screens/service%20screen/service_screen.dart';
 import 'package:flutter/material.dart';
 
-import '../service screen/service_screen.dart';
+class TabIntroWidget extends StatelessWidget {
+  const TabIntroWidget({super.key});
 
-class IntroWidget extends StatefulWidget {
-  const IntroWidget({super.key});
-
-  @override
-  State<IntroWidget> createState() => _IntroWidgetState();
-}
-
-class _IntroWidgetState extends State<IntroWidget> {
   @override
   Widget build(BuildContext context) {
     return Container(
