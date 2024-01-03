@@ -26,11 +26,14 @@ class IntroWidget extends StatelessWidget {
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                const Text(
-                  'AI-powered Marketing Strategy \nTools for Success',
-                  style: TextStyle(
-                    fontSize: 54.0,
-                    fontWeight: FontWeight.bold,
+                Container(
+                  width: 900,
+                  child: const Text(
+                    '''AI-powered Marketing & Management Strategy Tools for Industry''',
+                    style: TextStyle(
+                      fontSize: 54.0,
+                      fontWeight: FontWeight.bold,
+                    ),
                   ),
                 ),
                 const SizedBox(height: 106.0),

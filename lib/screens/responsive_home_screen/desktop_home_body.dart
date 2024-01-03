@@ -18,7 +18,7 @@ class _DesktopHomePageState extends State<DesktopHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: desktopAppBar(context),
+      appBar: desktopAppBarOpen(context),
       body: const SingleChildScrollView(
         padding: EdgeInsets.fromLTRB(150, 20, 150, 100),
         child: Expanded(

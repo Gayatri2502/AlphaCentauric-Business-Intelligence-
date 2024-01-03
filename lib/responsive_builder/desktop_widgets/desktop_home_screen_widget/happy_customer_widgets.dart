@@ -1,3 +1,4 @@
+import 'package:abi/custom_widgets/designer_container_widget.dart';
 import 'package:flutter/material.dart';
 
 class HappyCustomerWidget extends StatefulWidget {
@@ -10,9 +11,10 @@ class HappyCustomerWidget extends StatefulWidget {
 class _HappyCustomerWidgetState extends State<HappyCustomerWidget> {
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
+    return BeautifiedContainer(
       height: 500,
-      width: MediaQuery.of(context).size.width,
+      width: 1,
+      color: Colors.indigo.shade50,
       child: Stack(
         // crossAxisAlignment: CrossAxisAlignment.start,
         children: [

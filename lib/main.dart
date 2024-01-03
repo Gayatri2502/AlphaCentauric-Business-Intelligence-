@@ -1,4 +1,7 @@
+import 'package:abi/screens/about_screen/about_screen.dart';
+import 'package:abi/screens/contact_screen/contact_screen.dart';
 import 'package:abi/screens/home_screen.dart';
+import 'package:abi/screens/service%20screen/service_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
@@ -46,6 +49,10 @@ class _MyAppState extends State<MyApp> {
       ),
       routes: {
         '/': (context) => HomePage(),
+        '/service_screen': (context) => ServiceScreen(),
+        '/about_screen': (context) => AboutScreen(),
+        '/contact_screen': (context) => ContactScreen(),
+
         //  '/workshops': (context) => WorkshopsPage(),
         // Define routes for other pages
       },
