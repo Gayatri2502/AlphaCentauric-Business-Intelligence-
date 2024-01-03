@@ -46,13 +46,20 @@ dependencies:
   csv: ^5.0.2
   syncfusion_flutter_xlsio: ^21.2.3
   data_table_2: ^2.5.7
-  file_picker: ^5.5.0
+  file_picker: ^6.1.1
   firebase_storage: ^11.2.6
   path_provider: ^2.1.1
   open_file: ^3.3.2
   postgres: ^2.6.2
   fl_chart: ^0.63.0
   syncfusion_flutter_charts: ^21.2.4
+  url_launcher: ^6.1.14
+  python_shell: ^0.0.7
+  python_channel: ^0.0.2
+  file: ^7.0.0
+  firebase: ^9.0.3
+  flutter_svg: ^2.0.9
+
 
 dev_dependencies:
   flutter_test:
